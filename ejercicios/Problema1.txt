@@ -1,0 +1,19 @@
+1. Inicio
+2.indice, i [0,n]
+3.valor, i[0,n]
+4.(dias(5), x(20)[{a-z}, {BS}])
+5.(valordolares(5), i (o,n))
+5.dias[0]<-- "Lunes"
+6.dias[1]<-- "Martes"
+7.dias[2]<-- "Miércoles"
+8.dias[3]<-- "Jueves"
+9.dias[4]<-- "Viernes"
+10.Para(indice<-- 0, indice>5, 1) haga 
+11.	Escribir "Ingrese el valor del dia"
+12.	leer valor
+13.	valordolares[indice]<--valor
+14.Fin_Para
+15.Para(indice<-- 0, indice>5, 1) haga
+16.	Escribir dias[indice]+ " " + "$" + valordolares[indice]
+17.Fin_Para
+18.Fin
